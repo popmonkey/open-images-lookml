@@ -3,6 +3,7 @@ view: dict {
     ;;
 
   dimension: label_display_name {
+    primary_key: yes
     type: string
     sql: ${TABLE}.label_display_name ;;
     link: {
